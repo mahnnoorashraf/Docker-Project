@@ -121,29 +121,7 @@ The application is currently running successfully with both frontend and backend
 
 - **Frontend**: http://localhost:3000 ✅ Running
 - **Backend API**: http://localhost:5000 ✅ Running
-- **API Communication**: ✅ Working perfectly
-
-### Screenshots
-
-#### Frontend Application Screenshots
-
-**Screenshot 1: Main Interface**
-![Frontend Application - Main Interface](screenshots/frontend-app-1.png)
-*Shows the Docker Compose Application interface with the "Add New User" form and initial user list*
-
-**Screenshot 2: Complete User List**
-![Frontend Application - User List](screenshots/frontend-app-2.png)
-*Shows the complete user management interface with all 4 users displayed*
-
-**Screenshot 3: Backend API**
-![Backend API Response](screenshots/backend-api.png)
-*Shows the backend API response with available endpoints and application information*
-
-> **Note**: Please add the actual screenshot files to the `screenshots/` directory. See `screenshots/ADD_SCREENSHOTS_HERE.md` for instructions.
-
-#### Additional Data Files
-- **Running Processes** - See `screenshots/running_processes.txt`
-- **API Response Data** - See `screenshots/api_response.json`
+- **API Communication**: ✅ Working perfectly`
 
 ### Current Application Status
 ```
@@ -152,32 +130,6 @@ The application is currently running successfully with both frontend and backend
 ✅ API Endpoints Working
 ✅ User Management Functional
 ✅ Real-time Communication
-```
-
-### API Test Results
-```json
-[
-  {
-    "id": 1,
-    "name": "John Doe", 
-    "email": "john@example.com"
-  },
-  {
-    "id": 2,
-    "name": "Jane Smith",
-    "email": "jane@example.com"
-  },
-  {
-    "id": 3,
-    "name": "Bob Johnson",
-    "email": "bob@example.com"
-  },
-  {
-    "id": 4,
-    "name": "Mahnoor",
-    "email": "mahnoorashraf534@gmail.com"
-  }
-]
 ```
 
 ## Technologies Used
