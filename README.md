@@ -139,6 +139,8 @@ The application is currently running successfully with both frontend and backend
 ![Backend API Response](screenshots/backend-api.png)
 *Shows the backend API response with available endpoints and application information*
 
+> **Note**: Please add the actual screenshot files to the `screenshots/` directory. See `screenshots/ADD_SCREENSHOTS_HERE.md` for instructions.
+
 #### Additional Data Files
 - **Running Processes** - See `screenshots/running_processes.txt`
 - **API Response Data** - See `screenshots/api_response.json`
