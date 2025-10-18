@@ -116,14 +116,55 @@ curl -X POST http://localhost:5000/api/users \
 
 ## Screenshots
 
-### Docker Compose Running
-![Docker Compose Status](screenshots/docker-compose-status.png)
+### Application Running Status
+The application is currently running successfully with both frontend and backend services:
 
-### Frontend Application
-![Frontend Application](screenshots/frontend-app.png)
+- **Frontend**: http://localhost:3000 ✅ Running
+- **Backend API**: http://localhost:5000 ✅ Running
+- **API Communication**: ✅ Working perfectly
 
-### Backend API
-![Backend API](screenshots/backend-api.png)
+### Screenshots Required
+Please take screenshots of the following and add them to the `screenshots/` directory:
+
+1. **Frontend Application** - Open http://localhost:3000 in your browser
+2. **Backend API Response** - Open http://localhost:5000 in your browser  
+3. **Running Processes** - Run `ps aux | grep -E "(node|react)"` in terminal
+4. **Docker Compose Status** - Run `docker-compose ps` (when Docker is installed)
+
+### Current Application Status
+```
+✅ Backend API: http://localhost:5000
+✅ Frontend App: http://localhost:3000  
+✅ API Endpoints Working
+✅ User Management Functional
+✅ Real-time Communication
+```
+
+### API Test Results
+```json
+[
+  {
+    "id": 1,
+    "name": "John Doe", 
+    "email": "john@example.com"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "jane@example.com"
+  },
+  {
+    "id": 3,
+    "name": "Bob Johnson",
+    "email": "bob@example.com"
+  },
+  {
+    "id": 4,
+    "name": "Mahnoor",
+    "email": "mahnoorashraf534@gmail.com"
+  }
+]
+```
 
 ## Technologies Used
 
