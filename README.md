@@ -123,13 +123,25 @@ The application is currently running successfully with both frontend and backend
 - **Backend API**: http://localhost:5000 ✅ Running
 - **API Communication**: ✅ Working perfectly
 
-### Screenshots Required
-Please take screenshots of the following and add them to the `screenshots/` directory:
+### Screenshots
 
-1. **Frontend Application** - Open http://localhost:3000 in your browser
-2. **Backend API Response** - Open http://localhost:5000 in your browser  
-3. **Running Processes** - Run `ps aux | grep -E "(node|react)"` in terminal
-4. **Docker Compose Status** - Run `docker-compose ps` (when Docker is installed)
+#### Frontend Application Screenshots
+
+**Screenshot 1: Main Interface**
+![Frontend Application - Main Interface](screenshots/frontend-app-1.png)
+*Shows the Docker Compose Application interface with the "Add New User" form and initial user list*
+
+**Screenshot 2: Complete User List**
+![Frontend Application - User List](screenshots/frontend-app-2.png)
+*Shows the complete user management interface with all 4 users displayed*
+
+**Screenshot 3: Backend API**
+![Backend API Response](screenshots/backend-api.png)
+*Shows the backend API response with available endpoints and application information*
+
+#### Additional Data Files
+- **Running Processes** - See `screenshots/running_processes.txt`
+- **API Response Data** - See `screenshots/api_response.json`
 
 ### Current Application Status
 ```
